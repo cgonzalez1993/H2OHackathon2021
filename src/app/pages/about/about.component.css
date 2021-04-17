@@ -48,4 +48,12 @@ a:hover {
     margin-left: 40%;
     margin-right: 30%;
     margin-bottom: 2%;
+    background-color: #45AD68;
+    color: black;
+}
+.btn:hover{
+    background: #5489A3;
+}
+.btnContainer{
+    margin-left:500px;
 }
