@@ -14,6 +14,6 @@ export class AboutComponent implements OnInit {
   }
 
     toInDepth(){
-      this.router.navigateByUrl("indepthinfo")
+      this.router.navigateByUrl("indepthinfo");
     }
 }
