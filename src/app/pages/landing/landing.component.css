@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
 .row{
     margin: 0!important;
 }
@@ -35,6 +38,7 @@ z-index: 10;
 background-color: rgb(212, 209, 209);
 width: 400px;
 height: 200px;
+font-family: 'Playfair Display', serif;
 }
 .text-border{
     border-radius: 7px solid black;
@@ -51,6 +55,7 @@ height: 200px;
     font-size: 3rem;
     align-items: center;
     margin-left: 6%;
+    font-family: 'Montserrat', sans-serif;
 }
 .noPad{
     padding: 0 !important;
