@@ -1,5 +1,8 @@
 .black{
     color: black;
+
+}
+
 }
 .center{
     display: flex;
@@ -57,6 +60,8 @@ body{
     width: 100vw;
     height: 100vh;
 }
+
 .pointer{
     cursor: pointer;
 }
+
