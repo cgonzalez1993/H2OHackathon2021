@@ -1,19 +1,31 @@
-
 <body>
     <div class="container noPad noMarg">
         <h1 class="d-flex justify-content-center title">Algal Blooms</h1>
     </div>
        <div class="parent">
-            <ngb-carousel>
-                <ng-template ngbSlide class="center">
-                    <div class="picsum-img-wrapper">
-                        <img src="../../../assets/images/AlgalBloomLake.png" class="size" alt="Random first slide">
+            <ngb-carousel >
+                <ng-template ngbSlide>
+                    <div routerLink="basicinfo" class="pointer">
+                        <img src="../../../assets/images/LandingPage/AlgalBloomLake.png" class="size" alt="Random first slide">
+                    </div>
+                    
+                </ng-template>
+                <ng-template ngbSlide class="carouselStack">
+                    <div class="PicBg"></div>
+                    <div routerLink="basicinfo" class="pointer">
+                        <img src="../../../assets/images/LandingPage/AlgalResidue.png" class="size" alt="Random second slide">
                     </div>
                     
                 </ng-template>
                 <ng-template ngbSlide>
-                    <div class="picsum-img-wrapper">
-                        <img src="../../../assets/images/AlgalResidue.png" class="size 2ndPicBg" alt="Random second slide">
+                    <div routerLink="basicinfo" class="pointer">
+                        <img src="../../../assets/images/LandingPage/RedSea.png" class="size" alt="Random first slide">
+                    </div>
+                    
+                </ng-template>
+                <ng-template ngbSlide>
+                    <div routerLink="basicinfo" class="pointer">
+                        <img src="../../../assets/images/LandingPage/AlgalBloomDeadFish.png" class="size" alt="Random first slide">
                     </div>
                     
                 </ng-template>
