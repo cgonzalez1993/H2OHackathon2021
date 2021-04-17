@@ -1,1 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
+
+.bG {
+    background: linear-gradient(#45AD68, #5489A3, #808080);
+}
+
