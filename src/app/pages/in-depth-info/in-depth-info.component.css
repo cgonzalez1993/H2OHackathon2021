@@ -1,0 +1,21 @@
+.center{
+    display: flex;
+    justify-content: center;
+}
+.title{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif; 
+}
+.bG{
+    background: linear-gradient(#45AD68,#5489A3,#808080);
+}
+.algae{
+    font-size: 29px;
+    font-family: 'Montserrat', sans-serif;
+   
+}
+.description{
+    font-size: 17px;
+    font-family: 'Playfair Display', serif;
+}
