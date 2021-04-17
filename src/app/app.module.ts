@@ -8,6 +8,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { LandingComponent } from './pages/landing/landing.component';
 import { BasicInfoComponent } from './pages/basic-info/basic-info.component';
 import { InDepthInfoComponent } from './pages/in-depth-info/in-depth-info.component';
+import { ButtonComponent } from './buttons/button/button.component';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { InDepthInfoComponent } from './pages/in-depth-info/in-depth-info.compon
     AppComponent,
     LandingComponent,
     BasicInfoComponent,
-    InDepthInfoComponent
+    InDepthInfoComponent,
+    ButtonComponent
   ],
   imports: [
     BrowserModule,
