@@ -3,6 +3,13 @@
     justify-content: center;
 }
 .title{
-    font-size: 35px;
+    font-size: 45px;
     font-weight: bold;
+    font-family: 'Montserrat', sans-serif; 
+}
+.bG{
+    background: linear-gradient(#45AD68,#5489A3,#808080);
+}
+.algae{
+    font-size: 28px;
 }
