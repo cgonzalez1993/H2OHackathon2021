@@ -14,14 +14,11 @@
     justify-content: center;
 }
 
-.full-width, .nav_link {
+.full-width{
     background: #80808088;
 }
 
-.nav_link {
-    display: flex;
-    justify-content: center;
-}
+
 
 a {
     color: black;
