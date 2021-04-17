@@ -1,7 +1,7 @@
 .bG{
-    background: linear-gradient(#45AD68,#5489A3,#8080807e)no-repeat;
+    background: linear-gradient(#45AD68,#5489A3,#8080807e);
     width: 100%;
-    height: 100vh;
+    display: block;
 }
 .heroImg{
     display: flex;
@@ -22,4 +22,9 @@
     max-width: 24em;
     margin: 0 auto;
     padding: 0.25em 0.625em;
+  }
+  .heroText{
+    width: 100%;
+    bottom: 100%;
+    text-align: center;
   }
