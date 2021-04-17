@@ -1,5 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+
+
 import { BasicInfoComponent } from './pages/basic-info/basic-info.component';
 import { InDepthInfoComponent } from './pages/in-depth-info/in-depth-info.component';
 import { LandingComponent } from './pages/landing/landing.component';
