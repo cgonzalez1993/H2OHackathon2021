@@ -63,6 +63,10 @@ a:hover {
     text-align: center;
 }
 
-.size{
+.size {
     width: 75%;
+}
+
+.btnColor{
+    background-color: #45AD68;
 }
