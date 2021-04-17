@@ -1,0 +1,43 @@
+.bG{
+    background: linear-gradient(#45AD68,#5489A3,#8080807e);
+    width: 100%;
+    display: block;
+}
+.heroImg{
+    display: flex;
+    justify-content: center;
+}
+.title{
+    display: flex;
+    justify-content: center;
+}
+.full-width,.nav_link{
+    background: #80808088;
+    
+}
+.nav_link{
+    display: flex;
+    justify-content: center;
+    
+}
+a{
+    
+    color: black;
+}
+a:hover{
+    color: #93e4ae;
+}
+.wrap {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    max-width: 24em;
+    margin: 0 auto;
+    padding: 0.25em 0.625em;
+  }
+  .heroText{
+    width: 100%;
+    bottom: 100%;
+    text-align: center;
+  }
+ 
