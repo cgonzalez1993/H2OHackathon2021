@@ -1,7 +1,7 @@
 <div class="div bG">
     <div class="container-fluid">
         <div class="row center">
-            <div class="col-3">
+            <div class="col-3" [routerLink]="['']">
                 <img src="../../../assets/CODE_R3PLY_Logo-removebg-preview.png" alt="Hackathon 2021 logo and Team name">
             </div>
             <div class="col-9">
@@ -10,7 +10,7 @@
         </div>
         <div class="row mt-5">
             <div class="col-6 center">
-                <div class="card" style="width: 40rem;">
+                <div class="card zoom" style="width: 40rem;" (click)="wikiLink1()">
                     <img src="../../../assets//Akashiwo sanguinea.jpg" class="card-img-top"
                         alt="An image of the algae strain Akashiwo Sanguinea">
                     <div class="card-body">
@@ -43,7 +43,7 @@
                 </div>
             </div>
             <div class="col-6 center">
-                <div class="card" style="width: 40rem;">
+                <div class="card zoom" style="width: 40rem;" (click)="wikiLink2()">
                     <img src="../../../assets/Alexandrium-spp.jpg" class="card-img-top imgWidth"
                         alt="An image of the algae strain Alexandrium spp">
                     <div class="card-body">
@@ -80,7 +80,7 @@
         </div>
         <div class="row mt-5">
             <div class="col-6 center">
-                <div class="card" style="width: 40rem;">
+                <div class="card zoom" style="width: 40rem;" (click)="wikiLink3()">
                     <img src="../../../assets/Cochlodinium spp.jpg" class="card-img-top"
                         alt="An image of the algae strain Cochlodinium">
                     <div class="card-body">
@@ -113,7 +113,7 @@
                 </div>
             </div>
             <div class="col-6 center">
-                <div class="card" style="width: 40rem;">
+                <div class="card zoom" style="width: 40rem;" (click)="wikiLink4()">
                     <img src="../../../assets/Dinophysis spp.jpg" class="card-img-top"
                         alt="An image of the algae strain Dinophysis">
                     <div class="card-body">
@@ -147,7 +147,7 @@
         </div>
         <div class="row mt-5">
             <div class="col-6 center">
-                <div class="card" style="width: 40rem;">
+                <div class="card zoom" style="width: 40rem;" (click)="wikiLink5()">
                     <img src="../../../assets/Lingulodinium spp.jpg" class="card-img-top"
                         alt="An image of the algae strain Lingulodinium">
                     <div class="card-body">
@@ -181,7 +181,7 @@
                 </div>
             </div>
             <div class="col-6 center">
-                <div class="card" style="width: 40rem;">
+                <div class="card zoom" style="width: 40rem;" (click)="wikiLink6()">
                     <img src="../../../assets/Phaeocystis spp.jpg" class="card-img-top"
                         alt="An image of the algae strain Phaeocystis">
                     <div class="card-body">
@@ -210,7 +210,7 @@
         </div>
         <div class="row mt-5">
             <div class="col-6 center">
-                <div class="card" style="width: 40rem;">
+                <div class="card zoom" style="width: 40rem;" (click)="wikiLink7()">
                     <img src="../../../assets/Prorocentrum spp.jpg" class="card-img-top"
                         alt="An image of the algae strain Prorocentrum spp">
                     <div class="card-body">
@@ -241,7 +241,7 @@
                 </div>
             </div>
             <div class="col-6 center">
-                <div class="card" style="width: 40rem;">
+                <div class="card zoom" style="width: 40rem;" (click)="wikiLink8()">
                     <img src="../../../assets/Pseudo-nitzschia spp.png" class="card-img-top"
                         alt="An image of the algae strain Pseudo-nitzschia spp">
                     <div class="card-body">
@@ -282,6 +282,11 @@
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 center">
+                <img src="../../../assets/CODE_R3PLY_Logo-removebg-preview.png" alt="">
             </div>
         </div>
     </div>
