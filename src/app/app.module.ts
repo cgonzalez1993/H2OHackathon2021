@@ -10,7 +10,6 @@ import { BasicInfoComponent } from './pages/basic-info/basic-info.component';
 import { InDepthInfoComponent } from './pages/in-depth-info/in-depth-info.component';
 
 
-
 @NgModule({
   declarations: [
     AppComponent,
