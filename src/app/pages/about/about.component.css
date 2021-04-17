@@ -14,11 +14,9 @@
     justify-content: center;
 }
 
-.full-width{
+.full-width {
     background: #80808088;
 }
-
-
 
 a {
     color: black;
@@ -51,9 +49,14 @@ a:hover {
     background-color: #45AD68;
     color: black;
 }
-.btn:hover{
+
+.btn:hover {
     background: #5489A3;
 }
-.btnContainer{
-    margin-left:500px;
+
+.btnContainer {
+    font-size: 0.875em;
+    display: block;
+    left: -60px;
+    margin-top: 35px;
 }
