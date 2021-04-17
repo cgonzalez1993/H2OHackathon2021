@@ -11,7 +11,6 @@ import { InDepthInfoComponent } from './pages/in-depth-info/in-depth-info.compon
 import { ButtonComponent } from './buttons/button/button.component';
 
 
-
 @NgModule({
   declarations: [
     AppComponent,
