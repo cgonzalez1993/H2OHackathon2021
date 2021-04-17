@@ -11,7 +11,7 @@ import { InDepthInfoComponent } from './pages/in-depth-info/in-depth-info.compon
 
 import { AboutComponent } from './pages/about/about.component';
 
-import { ButtonComponent } from './buttons/button/button.component';
+
 
 
 
@@ -22,8 +22,6 @@ import { ButtonComponent } from './buttons/button/button.component';
     BasicInfoComponent,
     InDepthInfoComponent,
     AboutComponent,
-    ButtonComponent
-
   ],
   imports: [
     BrowserModule,
