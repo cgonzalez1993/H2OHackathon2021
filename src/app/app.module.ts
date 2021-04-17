@@ -7,13 +7,15 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { LandingComponent } from './pages/landing/landing.component';
 import { BasicInfoComponent } from './pages/basic-info/basic-info.component';
 import { InDepthInfoComponent } from './pages/in-depth-info/in-depth-info.component';
+import { AboutComponent } from './pages/about/about.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LandingComponent,
     BasicInfoComponent,
-    InDepthInfoComponent
+    InDepthInfoComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,

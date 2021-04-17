@@ -1,0 +1,25 @@
+.bG{
+    background: linear-gradient(#45AD68,#5489A3,#8080807e)no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+.heroImg{
+    display: flex;
+    justify-content: center;
+}
+.title{
+    display: flex;
+    justify-content: center;
+}
+.full-width{
+    background: #80808088;
+    
+}
+.wrap {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    max-width: 24em;
+    margin: 0 auto;
+    padding: 0.25em 0.625em;
+  }
