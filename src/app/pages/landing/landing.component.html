@@ -1,38 +1,64 @@
-
 <body>
-    <div class="container noPad noMarg">
-        <h1 class="d-flex justify-content-center title">Algal Blooms</h1>
-    </div>
-       <div class="parent">
-            <ngb-carousel >
-                <ng-template ngbSlide>
-                    <div routerLink="basicinfo" class="pointer">
-                        <img src="../../../assets/images/LandingPage/AlgalBloomLake.png" class="size" alt="Random first slide">
-                    </div>
-                    
-                </ng-template>
-                <ng-template ngbSlide class="carouselStack">
-                    <div class="PicBg"></div>
-                    <div routerLink="basicinfo" class="pointer">
-                        <img src="../../../assets/images/LandingPage/AlgalResidue.png" class="size" alt="Random second slide">
-                    </div>
-                    
-                </ng-template>
-                <ng-template ngbSlide>
-                    <div routerLink="basicinfo" class="pointer">
-                        <img src="../../../assets/images/LandingPage/RedSea.png" class="size" alt="Random first slide">
-                    </div>
-                    
-                </ng-template>
-                <ng-template ngbSlide>
-                    <div routerLink="basicinfo" class="pointer">
-                        <img src="../../../assets/images/LandingPage/AlgalBloomDeadFish.png" class="size" alt="Random first slide">
-                    </div>
-                    
-                </ng-template>
-            </ngb-carousel>
-            <div class ="text-border">
-                <h5 class="child center">Although ignored, harmful algal blooms is shown to lead to harmful effects on the wildlife and in the human bodies. Click the page to learn more! </h5>
+    <div class="container-fluid noPad noMarg">
+        <div class="container-fluid noPad noMarg title">
+            <div class="row noPad no Marg">
+                <div class="col-1"></div>
+                <div class="col-4 d-flex justify-content-start noPad no Marg logo ">
+                    <img src="../../../assets/images/LandingPage/CODE_R3PLY_Logo.png"
+                        alt="logo of Team name: CODE_R3PLY" class="noPad noMarg logoPos">
+                </div>
+                <div class="col-7 noPad noMarg d-flex justify-content-start align-items-center ">
+                    <h1 class="d-flex justify-content-center titleText">Algal Blooms</h1>
+                </div>
             </div>
         </div>
+        <div class="container-fluid noPad noMarg">
+
+            <div class="row noPad no Marg">
+                <div class="col-12 noPad no Marg">
+
+                    <div class="parent">
+                        <ngb-carousel>
+                            <ng-template ngbSlide>
+                                <div routerLink="basicinfo" class="pointer">
+                                    <img src="../../../assets/images/LandingPage/AlgalBloomLake.png" class="size"
+                                        alt="Random first slide">
+                                </div>
+
+                            </ng-template>
+                            <ng-template ngbSlide class="carouselStack">
+                                <div class="PicBg"></div>
+                                <div routerLink="basicinfo" class="pointer">
+                                    <img src="../../../assets/images/LandingPage/AlgalResidue.png" class="size"
+                                        alt="Random second slide">
+                                </div>
+
+                            </ng-template>
+                            <ng-template ngbSlide>
+                                <div routerLink="basicinfo" class="pointer">
+                                    <img src="../../../assets/images/LandingPage/RedSea.png" class="size"
+                                        alt="Random first slide">
+                                </div>
+
+                            </ng-template>
+                            <ng-template ngbSlide>
+                                <div routerLink="basicinfo" class="pointer">
+                                    <img src="../../../assets/images/LandingPage/AlgalBloomDeadFish.png" class="size"
+                                        alt="Random first slide">
+                                </div>
+
+                            </ng-template>
+                        </ngb-carousel>
+                        <div class="text-border">
+                            <h5 class="childText center">Although ignored, harmful algal blooms is shown to lead to
+                                harmful
+                                effects on
+                                the
+                                wildlife and in the human bodies. Click the page to learn more! </h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
