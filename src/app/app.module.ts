@@ -21,9 +21,7 @@ import { ButtonComponent } from './buttons/button/button.component';
     LandingComponent,
     BasicInfoComponent,
     InDepthInfoComponent,
-
-    AboutComponent
-
+    AboutComponent,
     ButtonComponent
 
   ],
