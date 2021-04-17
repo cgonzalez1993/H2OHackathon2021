@@ -11,9 +11,21 @@
     display: flex;
     justify-content: center;
 }
-.full-width{
+.full-width,.nav_link{
     background: #80808088;
     
+}
+.nav_link{
+    display: flex;
+    justify-content: center;
+    
+}
+a{
+    
+    color: black;
+}
+a:hover{
+    color: #93e4ae;
 }
 .wrap {
     display: flex;
@@ -28,3 +40,4 @@
     bottom: 100%;
     text-align: center;
   }
+ 
